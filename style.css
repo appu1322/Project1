@@ -1,0 +1,69 @@
+body{
+ font-family: Arial, Helvetica, sans-serif;
+    background: #cc2b5e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.circleContainer{
+    display: inline-block;
+    width: 550px;
+    height: 420px;
+    border: 1px solid rgb(196, 160, 93);
+    border-radius: 12px;
+    padding: 5px;
+    margin-left: 400px;
+}
+
+.circles{
+    background-color: #fff;
+    width: 90px;
+    height: 70px;
+    border-radius: 50%;;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin: 3px;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.colorContainer{
+    border: 1px solid rgb(67, 134, 165);
+    width: 800px;
+    height: 60px;
+    margin-top: 27px;
+    margin-left: 280px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color{
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    cursor: pointer;  
+}
+
+.color1{
+    padding: 2px;
+    margin-top: 4px;
+    text-align: center;
+}
+#input{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: 2em;
+}
